@@ -1,0 +1,12 @@
+<p style="color: blue">Parágrafo com fonte azul.</p>
+<p>Esse outro parágrafo não é azul, a não ser que
+exista <span style="color: red">CSS em outro lugar</span>.</p>
+<head>
+  <style type="text/css">
+    seletor { propriedade: valor; }
+  </style>
+</head>
+<head>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
